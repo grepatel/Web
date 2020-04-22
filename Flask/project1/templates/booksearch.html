@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <p class=" mx-md-n5 row"> Looking for a book? Search by Book title or ISBN or Author..</p>
+    <form action="{{url_for('booksearch')}}" class="form-control" method="post">
+        <div class="input-group mb-3">
+            <input class="form-control" id="search_text" name="search_text" placeholder="Title, ISBN or Author"
+                   required type="search">
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="col-md-6">
+    <table class="table table-bordered table-condensed table-striped table-hover" id="gBook">
+        <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>ISBN</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Average Rating</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for book in books %}
+        <tr class="table-row" data-page="bookreview">
+            <td>{{book.title}}</td>
+            <td>{{book.isbn}}</td>
+            <td>{{book.author}}</td>
+            <td>{{book.year}}</td>
+            <td>{{book.avg_rating}}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+</div>
+{% endblock %}

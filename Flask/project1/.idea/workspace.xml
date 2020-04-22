@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="689702b5-20a9-43fc-8f2d-c3228689e5a0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1afr1bLZweAeMmjclPoA7F6kq4f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project2/templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../project2/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../project2/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="project2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="application.py" />
+        <env name="FLASK_DEBUG" value="True" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask run" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="project2" type="PythonConfigurationType" factoryName="Python" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="project2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="application.py" />
+        <env name="FLASK_DEBUG" value="True" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../project2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../project2/index.html" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ShConfigurationType">
+      <option name="SCRIPT_PATH" value="flask run" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../project2" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="689702b5-20a9-43fc-8f2d-c3228689e5a0" name="Default Changelist" comment="" />
+      <created>1587137274116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587137274116</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Chrome_Settings" timestamp="1587581536810">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Chrome_Settings/0.0.1680.1050@0.0.1680.1050" timestamp="1587581536810" />
+    <state x="440" y="190" key="#Servers" timestamp="1587580500180">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Servers/0.0.1680.1050@0.0.1680.1050" timestamp="1587580500180" />
+    <state x="304" y="187" width="1071" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587580407141">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" width="1071" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587580407141" />
+    <state x="474" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587137305398">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="474" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1587137305398" />
+    <state x="594" y="324" key="EnvironmentVariablesDialog" timestamp="1587578796451">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="594" y="324" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587578796451" />
+    <state width="1659" height="363" key="GridCell.Tab.0.bottom" timestamp="1587588974063">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974063" />
+    <state width="1659" height="363" key="GridCell.Tab.0.center" timestamp="1587588974062">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974062" />
+    <state width="1659" height="363" key="GridCell.Tab.0.left" timestamp="1587588974061">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974061" />
+    <state width="1659" height="363" key="GridCell.Tab.0.right" timestamp="1587588974062">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974062" />
+    <state width="1659" height="363" key="GridCell.Tab.1.bottom" timestamp="1587588974064">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974064" />
+    <state width="1659" height="363" key="GridCell.Tab.1.center" timestamp="1587588974064">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974064" />
+    <state width="1659" height="363" key="GridCell.Tab.1.left" timestamp="1587588974063">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974063" />
+    <state width="1659" height="363" key="GridCell.Tab.1.right" timestamp="1587588974064">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587588974064" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1587582137195">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1587582137195" />
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1587502399240">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587502399240" />
+    <state x="405" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587579122688">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="405" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050@0.0.1680.1050" timestamp="1587579122688" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1587485041371">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587485041371" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/application.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

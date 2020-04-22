@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <p class=" mx-md-n5 row"> Write a review here: </p>
+    <form action="{{url_for('bookreview')}}" class="form-control" method="post">
+        <div class="form-check">
+            <input checked class="form-check-input" id="review1" name="review" type="radio" value="1">
+            <label class="form-check-label" for="review1">1</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" id="review2" name="review" type="radio" value="2">
+            <label class="form-check-label" for="review2">2</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" id="review3" name="review" type="radio" value="3">
+            <label class="form-check-label" for="review3">3</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" id="review4" name="review" type="radio" value="4">
+            <label class="form-check-label" for="review4">4</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" id="review5" name="review" type="radio" value="5">
+            <label class="form-check-label" for="review5">5</label>
+        </div>
+        <div class="input-group mb-3">
+            <textarea class="form-control" id="review_text" name="review_text"
+                      placeholder="Add your review here.."></textarea>
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="submit">Submit Review</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="col-md-6">
+    <table class="table table-bordered table-condensed table-striped table-hover">
+        <thead>
+        <tr>
+            <th>Book Reviews</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for review in reviews %}
+        <tr class="table-row">
+            <td>{{review}}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+</div>
+{% endblock %}

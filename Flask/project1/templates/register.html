@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="justify-content-center">
+    <form action="{{url_for('register')}}" class="form-signin col-sm-4" method="post">
+        <h2 class="form-signin-heading">Please Register :</h2>
+        <label class="sr-only" for="user_name">Name</label>
+        <input autofocus class="form-control" id="user_name" name="user_name" placeholder="Name" required type="name">
+        <label class="sr-only" for="user_email">Email address</label>
+        <input autofocus class="form-control" id="user_email" name="user_email" placeholder="Email address" required
+               type="email">
+        <label class="sr-only" for="user_pwd">Password</label>
+        <input class="form-control" id="user_pwd" name="user_pwd" placeholder="Password" required type="password">
+        <button class="btn  btn-primary btn-block" type="submit">Register</button>
+    </form>
+</div>
+{% endblock %}
