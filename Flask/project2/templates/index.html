@@ -12,10 +12,10 @@
     </form>
     <p id="msg"></p>
      <div class=" form-control mb-3">
-            <textarea class="form-control" id="txtChatWindow" name="txtChatWindow"></textarea>
+            <textarea class="form-control" id="txtChatWindow" name="txtChatWindow">{{chatText}}</textarea>
             <input class="form-control" id="txtMsg" name="txtMsg" placeholder="type your message here" required>
             <div class="input-group-append">
-                <button id="btnSendMsg" class="btn btn-dark" >Send Message</button>
+                <button id="btnSendMsg" class="btn btn-dark" type="submit" >Send Message</button>
             </div>
         </div>
 {% endblock %}
