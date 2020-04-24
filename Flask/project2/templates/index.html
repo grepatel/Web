@@ -1,22 +1,39 @@
 {% extends "layout.html" %}
-
+{% block heading %}
+{% endblock %}
 {% block body %}
-    <form id="frmChatName" class="form-control col-md-4 col-md-offset-4">
-        <div class="input-group mb-3">
-            <label class="sr-only" >Enter your chatroom name:</label>
-            <input class="form-control" id="chatUserName" name="chatUserName" placeholder="Chatroom Name" required>
-            <div class="input-group-append">
-                <button class="btn btn-dark" type="button">Enter</button>
-            </div>
-        </div>
-    </form>
-    <p id="msg"></p>
-     <div class="col-md-8">
-            <textarea class="form-control"  rows="25" id="txtChatWindow" name="txtChatWindow">{{chatText}}</textarea>
+<div class="row">
+    <div class="container col-md-9">
+        <h4 id="msg" class="col"></h4>
+        <div>
+            <textarea class="form-control" rows="25" id="txtChatWindow" name="txtChatWindow"
+                      readonly>{{chatText}}</textarea>
+            <p></p>
             <input class="form-control" id="txtMsg" name="txtMsg" placeholder="type your message here" required>
-            <p>   </p>
-            <div class="input-group-append">
-                <button id="btnSendMsg" class="btn btn-dark" type="submit" >Send Message</button>
+            <p></p>
+            <div class="clearfix">
+                <button id="btnSendMsg" class="btn btn-dark float-right" type="submit">Send Message</button>
             </div>
+            <p></p>
         </div>
+    </div>
+    <div class="container col-md-3">
+        <div id="frmChatName" class="md-3">
+           <input id="chatUserName" class="col" name="chatUserName" placeholder="Your Name" required>
+            <button id="btnChatName" class="btn btn-dark col" type="button">Enter</button>
+        </div>
+        <button id="btnChangeChatName" class="form-control col btn btn-dark " type="button">Update User Name</button>
+        <input class="form-control" id="txtChatroomName" name="txtChatroomName" placeholder="Chatroom Name" required>
+        <button id="btnCreateChatroom" class="btn btn-dark col" type="submit">Create Chatroom</button>
+        <p></p>
+        <label class="chat-room">Existing Chatrooms</label>
+        <ul class="list-group" id="lstChatroom">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </div>
+</div>
 {% endblock %}

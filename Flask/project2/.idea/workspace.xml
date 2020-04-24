@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78cce41-7842-4c19-ba7a-abacdd47e179" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -59,14 +61,22 @@
       <option name="project" value="LOCAL" />
       <updated>1587684019175</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="two way chatroom. basics tested">
+      <created>1587691287165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587691287165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working base" />
     <MESSAGE value="first socket io emit" />
     <MESSAGE value="functional chatroom checkpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional chatroom checkpoint" />
+    <MESSAGE value="two way chatroom. basics tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="two way chatroom. basics tested" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Chrome_Settings" timestamp="1587592306477">
@@ -81,10 +91,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587678191770" />
-    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587684019033">
+    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587691287003">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587684019033" />
+    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587691287003" />
     <state x="349" y="164" key="SettingsEditor" timestamp="1587592313427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
