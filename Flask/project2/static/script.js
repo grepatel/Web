@@ -1,7 +1,15 @@
-if(!localStorage.getItem('chatUserName'))
-    localStorage.setItem('chatUserName','');
+
 document.addEventListener('DOMContentLoaded',() =>
 {
+        if(!localStorage.getItem('chatUserName'))
+        {
+            localStorage.setItem('chatUserName','');
+            document.querySelector('#frmChatName').style.display='block';
+        }
+        else
+        {
+            document.querySelector('#frmChatName').style.display='none';
+        }
 
         document.querySelector('button').onclick = () =>
         {
@@ -15,7 +23,6 @@ document.addEventListener('DOMContentLoaded',() =>
     socket.on('connect', function()
     {
 
-        socket.emit('my event', {data: 'I\'m connected!'});
         document.querySelector('#btnSendMsg').onclick = () =>
         {
                 const msg = localStorage.getItem('chatUserName') + ": " + document.querySelector('#txtMsg').value + '\n';
