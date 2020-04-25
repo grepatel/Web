@@ -17,14 +17,17 @@
             <p></p>
         </div>
     </div>
+    <div id="serverChatObj" data-chatrooms='{{ chatroomsJson }}'></div>
     <div class="container col-md-3">
         <div id="frmChatName" class="md-3">
            <input id="chatUserName" class="col" name="chatUserName" placeholder="Your Name" required>
             <button id="btnChatName" class="btn btn-dark col" type="button">Enter</button>
         </div>
-        <button id="btnChangeChatName" class="form-control col btn btn-dark " type="button">Update User Name</button>
-        <input class="form-control" id="txtChatroomName" name="txtChatroomName" placeholder="Chatroom Name" required>
-        <button id="btnCreateChatroom" class="btn btn-dark col" type="submit">Create Chatroom</button>
+        <button id="btnChangeChatName" class="form-control col btn btn-dark " type="button">Update Username</button>
+       <div>
+            <input type="text" class="form-control" id="txtChatroomName" name="txtChatroomName" placeholder="Chatroom Name" required>
+            <button id="btnCreateChatroom" class="btn btn-dark col" type="submit">New Chatroom</button>
+       </div>
         <p></p>
         <label class="chat-room">Existing Chatrooms</label>
         <ul class="list-group" id="lstChatroom">

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78cce41-7842-4c19-ba7a-abacdd47e179" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RunManager">
+    <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587691287165</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added chatroom basics. Server side snapshot pending">
+      <created>1587702862972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587702862972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -76,7 +110,8 @@
     <MESSAGE value="first socket io emit" />
     <MESSAGE value="functional chatroom checkpoint" />
     <MESSAGE value="two way chatroom. basics tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="two way chatroom. basics tested" />
+    <MESSAGE value="added chatroom basics. Server side snapshot pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chatroom basics. Server side snapshot pending" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Chrome_Settings" timestamp="1587592306477">
@@ -91,10 +126,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587678191770" />
-    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587691287003">
+    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587702862755">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587691287003" />
+    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587702862755" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1587790477742">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587790477742" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1587790477741">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587790477741" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1587790477741">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587790477741" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1587790477742">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587790477742" />
+    <state width="1659" height="363" key="GridCell.Tab.1.bottom" timestamp="1587790468622">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587790468622" />
+    <state width="1659" height="363" key="GridCell.Tab.1.center" timestamp="1587790468621">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587790468621" />
+    <state width="1659" height="363" key="GridCell.Tab.1.left" timestamp="1587790468621">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587790468621" />
+    <state width="1659" height="363" key="GridCell.Tab.1.right" timestamp="1587790468622">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587790468622" />
     <state x="349" y="164" key="SettingsEditor" timestamp="1587592313427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
