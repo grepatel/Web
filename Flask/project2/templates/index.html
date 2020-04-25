@@ -20,23 +20,17 @@
     <div id="serverChatObj" data-chatrooms='{{ chatroomsJson }}'></div>
     <div class="container col-md-3">
         <div id="frmChatName" class="md-3">
-           <input id="chatUserName" class="col" name="chatUserName" placeholder="Your Name" required>
-            <button id="btnChatName" class="btn btn-dark col" type="button">Enter</button>
+           <input id="username" class="col" name="username" placeholder="Your Name" required>
+            <button id="btnUsername" class="btn btn-dark col" type="button">Enter</button>
         </div>
-        <button id="btnChangeChatName" class="form-control col btn btn-dark " type="button">Update Username</button>
+        <button id="btnChangeUsername" class="form-control col btn btn-dark " type="button">Update Username</button>
        <div>
             <input type="text" class="form-control" id="txtChatroomName" name="txtChatroomName" placeholder="Chatroom Name" required>
             <button id="btnCreateChatroom" class="btn btn-dark col" type="submit">New Chatroom</button>
        </div>
         <p></p>
         <label class="chat-room">Existing Chatrooms</label>
-        <ul class="list-group" id="lstChatroom">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
+        <div class="list-group" id="lstChatroom"></div>
     </div>
 </div>
 {% endblock %}

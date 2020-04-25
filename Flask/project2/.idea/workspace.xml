@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587702862972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added chatrooms...&#10;browser snapshot of chatrooms pending&#10;basic validations pending">
+      <created>1587791642959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587791642959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,7 +118,8 @@
     <MESSAGE value="functional chatroom checkpoint" />
     <MESSAGE value="two way chatroom. basics tested" />
     <MESSAGE value="added chatroom basics. Server side snapshot pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chatroom basics. Server side snapshot pending" />
+    <MESSAGE value="added chatrooms...&#10;browser snapshot of chatrooms pending&#10;basic validations pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chatrooms...&#10;browser snapshot of chatrooms pending&#10;basic validations pending" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Chrome_Settings" timestamp="1587592306477">
@@ -126,10 +134,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587678191770" />
-    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587702862755">
+    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587791642807">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587702862755" />
+    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587791642807" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1587790477742">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

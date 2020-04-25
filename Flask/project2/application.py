@@ -36,7 +36,7 @@ class Chatroom:
         return data
 
 
-chatrooms = [Chatroom("Default", "line0")]
+chatrooms = [Chatroom("Default", "Hello from the Server!!!")]
 
 
 def Serialize(chatrooms):
@@ -58,10 +58,11 @@ def index():
 
 @app.route("/<string:name>")
 def room(name):
-    chatroom = next(filter(lambda x: x.name == name, chatrooms))
+    print('looking for chatroom ' + name)
+    chatroom = next((x for x in chatrooms if x.name == name), None)
     if chatroom is not None:
-        print('found chatroom ' + json.jsonify(chatroom))
-        return json.jsonify(chatroom);
+        print('found chatroom ' + chatroom.serialize())
+        return chatroom.text
 
 
 @socketio.on("send message")
@@ -69,7 +70,7 @@ def sendmessage(data):
     print('received message: ' + data["chatroom"])
     name = data["chatroom"]
     msg = data["message"]
-    chatroom= next((x for x in chatrooms if x.name == name), None)
+    chatroom = next((x for x in chatrooms if x.name == name), None)
     if chatroom is not None:
         print('received message: found chatroom ' + data["message"])
         chatroom.newmessage(msg)
@@ -84,26 +85,6 @@ def on_newchatroom(data):
     chatroom.adduser(user)
     chatrooms.append(chatroom)
     emit("broadcast chatroom", chatroom.serialize(), broadcast=True)
-
-
-@socketio.on('join')
-def on_join(data):
-    name = data["room"]
-    user = data["username"]
-    chatroom = next(filter(lambda x: x.name == name, chatrooms))
-    if chatroom is not None:
-        chatroom.adduser(user)
-        send(user + ' has entered the room.', chatrooms=Serialize(chatrooms))
-
-
-@socketio.on('leave')
-def on_leave(data):
-    name = data["room"]
-    user = data["username"]
-    chatroom = next(filter(lambda x: x.name == name, chatrooms))
-    if chatroom is not None:
-        chatroom.removeuser(user)
-        send(user + ' has exited the room.', chatrooms=Serialize(chatrooms))
 
 
 @socketio.on('connect')
