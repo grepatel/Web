@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a78cce41-7842-4c19-ba7a-abacdd47e179" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587791642959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="able to preserve chatroom states in server and retrieve back as needed">
+      <created>1587854877051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587854877051</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,7 +124,8 @@
     <MESSAGE value="two way chatroom. basics tested" />
     <MESSAGE value="added chatroom basics. Server side snapshot pending" />
     <MESSAGE value="added chatrooms...&#10;browser snapshot of chatrooms pending&#10;basic validations pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chatrooms...&#10;browser snapshot of chatrooms pending&#10;basic validations pending" />
+    <MESSAGE value="able to preserve chatroom states in server and retrieve back as needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to preserve chatroom states in server and retrieve back as needed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Chrome_Settings" timestamp="1587592306477">
@@ -134,10 +140,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587678191770" />
-    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587791642807">
+    <state x="473" y="127" key="CommitChangelistDialog2" timestamp="1587854876895">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587791642807" />
+    <state x="473" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587854876895" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1587790477742">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

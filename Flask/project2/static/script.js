@@ -88,6 +88,7 @@ function EventCallBacks(socket)
             link.onclick  = () =>
             {
                 loadChat(link.dataset.page);
+                localStorage.setItem('chatroomname',link.dataset.page);
                 return false;
             }
 
