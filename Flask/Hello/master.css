@@ -1,0 +1,46 @@
+h1 {
+  color:#13cf8d;
+  text-align=center;
+}
+div {
+  font-family: sans-serif,cursive;
+  font-size: 28px;
+  border: 3px dotted red;
+}
+
+#div1
+{
+  font-family: sans-serif,cursive;
+  font-size: 20px;
+  border: 3px dotted green;
+}
+#div2
+{
+  font-family: sans-serif,cursive;
+  font-size: 20px;
+  border: 3px dotted black;
+}
+#div3
+{
+  font-family: sans-serif,cursive;
+  font-size: 20px;
+  border: 3px dotted blue;
+}
+
+.name{
+  font-family: sans-serif,cursive;
+  font-size: 40px;
+  border: 3px dotted aqua;
+}
+
+.NextButton{
+  color: green;
+  font-size: 50px;
+  border-color: blue;
+}
+
+@media only screen and (max-width: 6000px){
+  body{
+    background-color: gray;
+  }
+}
