@@ -36,7 +36,7 @@ class Chatroom:
         return data
 
 
-chatrooms = [Chatroom("Default", "Hello from the Server!!!")]
+chatrooms = [Chatroom("Default", "CSSExamples from the Server!!!")]
 
 
 def Serialize(chatrooms):

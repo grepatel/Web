@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>{% block title %} {% endblock %}</title>
-    <link href="style.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -15,10 +14,10 @@
 {% block body %}
 {% endblock %}
 {% if message %}
-<div class="alert alert-success" role="alert"> {{message}}</div>
+<div class="alert alert-success" role="alert"> {{message}} </div>
 {% endif %}
 {% if error %}
-<div class="alert alert-danger" role="alert"> {{error}}</div>
+<div class="alert alert-danger" role="alert"> {{error}} </div>
 {% endif %}
 </body>
 </html>

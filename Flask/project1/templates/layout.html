@@ -8,11 +8,10 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <h1 class="text-center">BOOK DUMP</h1>
+    <h1 class="text-center">{% block heading %}
+    {% endblock %}</h1>
 </head>
 <body>
-<h1>{% block heading %}
-    {% endblock %} </h1>
 {% block body %}
 {% endblock %}
 {% if message is not none %}

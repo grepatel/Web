@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../AnimationExamples/.idea/AnimationExamples.iml" filepath="$PROJECT_DIR$/../../AnimationExamples/.idea/AnimationExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../CSSExamples/.idea/CSSExamples.iml" filepath="$PROJECT_DIR$/../../CSSExamples/.idea/CSSExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../.idea/Web.iml" filepath="$PROJECT_DIR$/../../.idea/Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../project1/.idea/project1.iml" filepath="$PROJECT_DIR$/../project1/.idea/project1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/project2.iml" filepath="$PROJECT_DIR$/.idea/project2.iml" />
     </modules>

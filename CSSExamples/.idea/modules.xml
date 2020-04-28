@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/CSSExamples.iml" filepath="$PROJECT_DIR$/.idea/CSSExamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Hello.iml" filepath="$PROJECT_DIR$/.idea/Hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Django/Practice/.idea/Practice.iml" filepath="$PROJECT_DIR$/../Django/Practice/.idea/Practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Flask/Project3/.idea/Project3.iml" filepath="$PROJECT_DIR$/../Flask/Project3/.idea/Project3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Django/Project3/.idea/Project3.iml" filepath="$PROJECT_DIR$/../Django/Project3/.idea/Project3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Flask/project1/.idea/project1.iml" filepath="$PROJECT_DIR$/../Flask/project1/.idea/project1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Flask/project2/.idea/project2.iml" filepath="$PROJECT_DIR$/../Flask/project2/.idea/project2.iml" />
     </modules>
