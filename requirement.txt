@@ -1,4 +1,4 @@
 Flask
 psycopg2
 Flask-SocketIO
-Django==2.0.3
+Django==2.2.10
