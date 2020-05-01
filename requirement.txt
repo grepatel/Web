@@ -1,3 +1,4 @@
 Flask
+psycopg2
 Flask-SocketIO
 Django==2.0.3
